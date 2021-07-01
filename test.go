@@ -19,7 +19,7 @@ func main() {
 	select {
 	case <-ch:
 		fmt.Println("Exiting.")
-		os.Exit(0)
+		os.
 	case <-time.After(3 * time.Second):
 		fmt.Println("Timed out, exiting.")
 	}
