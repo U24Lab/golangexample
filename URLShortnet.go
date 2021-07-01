@@ -47,6 +47,9 @@ func getURL(mapURL map[string]string) {
 
 }
 
+func redirect(userUrl string){
+	
+
 // func navigate(w http.ResponseWriter, r *http.Request) {
 
 // 	userLink := r.URL.Path
